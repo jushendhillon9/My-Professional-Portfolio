@@ -52,7 +52,7 @@ header h1{
     height: 336px;
     width: 200px;
     border: 5px solid slategrey;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-left: 30px;
     margin-top: -120px;
 }
@@ -102,7 +102,7 @@ h2 {
 
 .sectionTwoContainer {
     display:flex;
-    height: 910px;
+    height: 980px;
 }
 
 #sectionTwoName {
@@ -175,6 +175,18 @@ h2 {
     background: rgba(0,0,0,.5);
 }
 
+#tronImageLabel {
+    position: relative;
+    left: 500px;
+    bottom: 110px;
+    width: 400px;
+    height: 70px;
+    background-color: aqua;
+    font-size: 20px;
+    text-align: center;
+    line-height: 65px;
+}
+
 #imageOneBorder{
     border: 3px solid orangered;
 }
@@ -183,6 +195,18 @@ h2 {
     box-shadow: 0px 3px 11px black;
     opacity: 0.6;
     background: rgba(0,0,0,.5);
+}
+
+#imageOneLabel {
+    position: relative;
+    left: 235px;
+    bottom: 110px;
+    width: 200px;
+    height: 40px;
+    background-color: orangered;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
 }
 
 #imageTwoBorder{
@@ -195,6 +219,18 @@ h2 {
     background: rgba(0,0,0,.5);
 }
 
+#imageTwoLabel {
+    position: relative;
+    left: 235px;
+    bottom: 110px;
+    width: 200px;
+    height: 40px;
+    background-color: lemonchiffon;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
 #imageThreeBorder{
     border: 3px solid black;
 }
@@ -205,6 +241,19 @@ h2 {
     background: rgba(0,0,0,.5);
 }
 
+#imageThreeLabel {
+    position: relative;
+    left: 235px;
+    bottom: 110px;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: slateblue;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
 #imageFourBorder{
     border: 3px solid slateblue;
 }
@@ -213,6 +262,18 @@ h2 {
     box-shadow: 0px 3px 11px black;
     opacity: 0.6;
     background: rgba(0,0,0,.5);
+}
+
+#imageFourLabel {
+    position: relative;
+    left: 235px;
+    bottom: 110px;
+    width: 200px;
+    height: 40px;
+    background-color: slateblue;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
 }
 
 .sectionThreeContainer {
@@ -253,8 +314,7 @@ section div ul li {
 @media screen and (max-width: 1263px)
 {
     .sectionTwoContainer {
-        height: 1200px;
-        
+        height: 1400px;
     }
     .row {
         top: 790px;
@@ -269,6 +329,9 @@ section div ul li {
     #tronImageBorder{
         height: 267px;
         width: 600px;
+    }
+    #tronImageLabel {
+        left: 200px;
     }
 }
 
@@ -285,12 +348,15 @@ section div ul li {
         height: 100%;
     }
     .sectionTwoContainer {
-        height: 1170px;
+        height: 1400px;
         margin-bottom: 50px;
     }
     #tronImageBorder{
         height: 245px;
         width: 530px;
+    }
+    #tronImageLabel {
+        left: 129px;
     }
 }
 
