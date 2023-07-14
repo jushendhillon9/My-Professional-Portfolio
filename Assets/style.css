@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: #31343d;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+header h1{
+    height: 60px;
+    width: 315px;
+    background-color:#92cccd;
+    font-size: 50px;
+    padding: 5px;
+    text-align: right;
+}
+
+
+
+#navMenu {
+    display:flex;
+    width: 450px;
+    height: 85px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#navMenu ul li {
+    list-style-type: none;
+    color: #92cccd;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline;
+    border-bottom: 3px solid #92cccd;
+}
+
+#heroBackground {
+    height: 200px;
+    width: 100vw;
+}
+
+#professionalPhoto {
+    display: flex;
+    height: 336px;
+    width: 200px;
+    border: 5px solid slategrey;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: -120px;
+}
+
+#bottomLeft{
+    position: absolute;
+    left: 0px;
+    top: 220px;
+}
+
+h2 {
+    background-color: #92cccd;
+    color: #31343d;
+    font-size: 40px;
+    padding: 5px;
+    padding-left: 19px;
+}
+
+#sectionOneContainer{
+    display:flex;
+    height: 300px;
+    width: 100vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#sectionOneName {
+    display: flex;
+    font-size: 70px;
+    text-align: right;
+    height: 85%;
+    width: 300px;
+    padding-right: 20px;
+    padding-top: 5px;
+    border-right: 5px solid black;
+    flex-shrink: 0;
+}
+
+#aboutMeParagraph {
+    display: flex;
+    width: 100vw;
+    height: 250px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sectionTwoContainer {
+    display:flex;
+    height: 910px;
+}
+
+#sectionTwoName {
+    font-size: 70px;
+    text-align: right;
+    height: 97%;
+    width: 300px;
+    padding-right: 20px;
+    padding-top: 5px;
+    border-right: 5px solid black;
+    flex-shrink: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* super important!!! this is what gets rid of overflowing*/
+    flex-direction: row; 
+    position: absolute;
+    top: 655px;
+    left: 330px;
+    
+  }
+
+  .justify-center{
+    justify-content: center;
+  }
+
+  .imageButtonOneGrow {
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+  }
+
+  .imageButtonTwoThreeGrow {
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .imageButtonColumn{
+    display: flex;
+    flex-direction: column;
+    min-height: 125%;
+    justify-content: flex-start;
+  }
+
+  .linebreak {
+    height: 2px;
+    flex-basis: 100%;
+  }
+
+#button-Column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+  }
+
+#tronImageBorder{
+    border: 3px solid aqua;
+    height: 400px;
+    width: 900px;
+}
+#tronImageBorder:hover {
+    box-shadow: 0px 3px 11px black;
+    opacity: 0.6;
+    background: rgba(0,0,0,.5);
+}
+
+#imageOneBorder{
+    border: 3px solid orangered;
+}
+
+#imageOneBorder:hover {
+    box-shadow: 0px 3px 11px black;
+    opacity: 0.6;
+    background: rgba(0,0,0,.5);
+}
+
+#imageTwoBorder{
+    border: 3px solid lemonchiffon;
+}
+
+#imageTwoBorder:hover {
+    box-shadow: 0px 3px 11px black;
+    opacity: 0.6;
+    background: rgba(0,0,0,.5);
+}
+
+#imageThreeBorder{
+    border: 3px solid black;
+}
+
+#imageThreeBorder:hover {
+    box-shadow: 0px 3px 11px black;
+    opacity: 0.6;
+    background: rgba(0,0,0,.5);
+}
+
+#imageFourBorder{
+    border: 3px solid slateblue;
+}
+
+#imageFourBorder:hover {
+    box-shadow: 0px 3px 11px black;
+    opacity: 0.6;
+    background: rgba(0,0,0,.5);
+}
+
+.sectionThreeContainer {
+    display:flex;
+    height: 200px;
+    width: 100vw;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+#sectionThreeName {
+    font-size: 70px;
+    text-align: right;
+    height: 100%;
+    width: 300px;
+    padding-right: 20px;
+    padding-top: 5px;
+    border-right: 5px solid black;
+    flex-shrink: 0;
+}
+
+section div ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+section div ul li {
+    border-bottom: 5px solid black;
+}
+
+
+
+@media screen and (max-width: 1263px)
+{
+    .sectionTwoContainer {
+        height: 1200px;
+        
+    }
+    .row {
+        top: 790px;
+    }
+
+    #sectionTwoName{
+        padding-top: 30px;
+    }
+    #sectionOneContainer{
+        height: 430px;
+    }
+    #tronImageBorder{
+        height: 267px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1037px)
+{
+    .row {
+        top: 805px;
+    }
+    #sectionOneContainer{
+        height: 430px;
+        margin-bottom: 50px;
+    }
+    #sectionOneName{
+        height: 100%;
+    }
+    .sectionTwoContainer {
+        height: 1170px;
+        margin-bottom: 50px;
+    }
+    #tronImageBorder{
+        height: 245px;
+        width: 530px;
+    }
+}
+
+@media screen and (max-width: 941px){
+    #sectionOneContainer{
+        height: 530px;
+    }
+    .row {
+        top: 909px;
+    }
+
+    section div ul {
+        flex-direction: column;
+    }
+    .sectionThreeContainer {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 869px) {
+    #sectionOneContainer{
+        height: 600px;
+    }
+    .row {
+        top: 975px;
+    }
+}
