@@ -2,4 +2,4 @@
 
 Description: This is my professional portfolio. Because I only have one application completed, all but one button image do not reroute anywhere. In the future, all five will. The portfolio also includes a brief description of myself and links to contact me.
 
-Deployed Application URL: https://jushendhillon9.github.io/My-Professional-Portfolio/
+Deployed Application URL: [https://jushendhillon9.github.io/My-Professional-Portfolio/](https://jushendhillon9.github.io/My-Professional-Portfolio-Module-2-Challenge/)https://jushendhillon9.github.io/My-Professional-Portfolio-Module-2-Challenge/
